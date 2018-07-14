@@ -38,7 +38,7 @@ public class test {
     }
 
     public boolean checkFizzBuzzCondition(int dividen, int divisor){
-        while(dividen / 10 != 0){
+        while(dividen % 10 != 0){
             int temp = dividen % 10;
             if(temp == divisor){
                 return true;

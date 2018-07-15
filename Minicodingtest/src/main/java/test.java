@@ -8,7 +8,7 @@ public class test {
             System.out.println("Impossible.");
         }
         for(int i = 1; i <= total; i++){
-            if((i%3 == 0)&&(i%5 == 0)){// meet both requirement
+            if((i%3 == 0)&&(i%5 == 0)){// meet both requirements
                 System.out.println("FizzBuzz");
             }else if(i%3 == 0){ // multiples of 3
                 System.out.println("Fizz");
